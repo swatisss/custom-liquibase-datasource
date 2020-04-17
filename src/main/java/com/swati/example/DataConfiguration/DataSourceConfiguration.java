@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Configuration
 @EnableConfigurationProperties(LiquibaseProperties.class)
-public class DataConfigiuration {
+public class DataSourceConfigiuration {
 
 	@Autowired
 	private LiquibaseProperties liquibaseProperties;
